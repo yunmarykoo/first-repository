@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+body * {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1604597948314-e40652afb27a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") bottom/cover;
+  box-shadow: inset 0px 100vh 0px rgba(0, 0, 0, 0.6);
+}
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 20px 0px;
+  background-color: #2f2f2f;
+}
+header ul li a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 500ms;
+}
+header ul li a:hover {
+  color: #d1d1d1;
+  text-shadow: 0px 0px 10px #c8c8c8;
+}
+
+main .card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .card div {
+  width: 220px;
+  margin: 40px 20px;
+  background: #e0e0e0;
+  text-align: center;
+  padding: 20px;
+}
+main .card div img {
+  width: 25%;
+}
+main .card div h3 {
+  margin: 15px 0;
+}
+main .scene {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background: #0c0d1d;
+}
+main .scene div {
+  width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  color: white;
+}
+main .scene div p {
+  margin: 40px 0;
+}
+main .goods {
+  text-align: center;
+  padding: 50px;
+}
+main .goods h1 {
+  font-size: 45px;
+  position: relative;
+}
+main .goods h1::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  border: 2px solid #dd8800;
+  bottom: 0;
+  left: 45%;
+}
+main .goods p {
+  margin: 20px 0;
+}
+main .goods section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .goods section img {
+  width: 500px;
+  height: 350px;
+  margin: 10px 10px;
+}
+main .skills {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+main .skills div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  background: #959595;
+  margin: 10px;
+}
+main .skills div:nth-child(1) img {
+  width: 180px;
+  border-radius: 50%;
+}
+main .skills div:nth-child(2) {
+  background: #959595;
+  padding: 20px;
+  margin: 10px;
+}
+main .skills div:nth-child(2) p {
+  margin: 20px 0;
+}
+main .skills div:nth-child(2) div {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+main .skills div:nth-child(2) div h3 {
+  font-weight: 400;
+}
+main .blog h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  position: relative;
+}
+main .blog h1::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 150px;
+  background: gold;
+  left: 46%;
+  bottom: 0;
+}
+main .blog p {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+main .blog div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .blog div div {
+  width: 500px;
+  margin: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  background: #cfcdcd;
+}
+main .blog div div img {
+  width: 500px;
+}
+main .blog div div p {
+  text-align: center;
+  width: 40%;
+  margin-top: 30px;
+}
+main .touch h1 {
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  margin: 40px 0;
+}
+main .touch h1::before {
+  content: "";
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  height: 2px;
+  width: 200px;
+  background: gold;
+}
+main .touch p {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+main .touch form {
+  width: 70%;
+  margin: auto;
+}
+main .touch form section {
+  display: flex;
+  justify-content: center;
+}
+main .touch form section input {
+  margin: 20px;
+  width: 45%;
+  height: 40px;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+main .touch form div {
+  width: 100%;
+}
+main .touch form div input {
+  width: 90%;
+  margin-left: 50px;
+  padding-bottom: 100px;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+main .touch form .btn {
+  display: flex;
+  justify-content: center;
+}
+main .touch form .btn button {
+  background: red;
+  border: 0;
+  padding: 15px 25px;
+  color: white;
+  margin-top: 40px;
+  font-weight: 400;
+}
+main .map {
+  background: #2f2f2f;
+  margin-top: 100px;
+}
+main .map h1 {
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
+
+footer {
+  background: #2f2f2f;
+  height: 70px;
+}
+footer h1 {
+  color: white;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

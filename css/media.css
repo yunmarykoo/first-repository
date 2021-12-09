@@ -1,0 +1,30 @@
+
+
+@media screen and (max-width:670px) {
+   .scene div p {
+       font-size: 10px;
+   }
+}
+
+@media screen and (max-width:530px) {
+    .scene iframe {
+        width: 500px;
+        height: 200px;
+    }
+    .scene div p {
+        display: none;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .scene iframe {
+        width: 200px;
+        height: 180px;
+    }
+    .blog div div {
+        width: 200px;
+    }
+    .blog div div img{
+        width: 200px;
+    }
+}
